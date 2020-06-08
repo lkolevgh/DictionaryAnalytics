@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ObjectBinaryTreeInterface
+comment0.text=\r\n\ ObjectBinaryTreeInterface\ Interface\r\n\r\n\ @author\ (Luka\ Kolev,\ Student\ I.D\ \=\ 012034735)\r\n\ @version\ (11/20/19)\r\n
+comment1.params=
+comment1.target=ObjectTreeNode\ getRoot()
+comment10.params=o
+comment10.target=void\ delete(java.lang.Object)
+comment2.params=parent\ r
+comment2.target=void\ setLeftChild(ObjectTreeNode,\ ObjectTreeNode)
+comment3.params=parent\ r
+comment3.target=void\ setRightChild(ObjectTreeNode,\ ObjectTreeNode)
+comment4.params=o
+comment4.target=void\ insertBST(java.lang.Object)
+comment5.params=o
+comment5.target=void\ insertBSTDup(java.lang.Object)
+comment6.params=o
+comment6.target=ObjectTreeNode\ searchBST(java.lang.Object)
+comment7.params=tree
+comment7.target=void\ preTrav(ObjectTreeNode)
+comment8.params=tree
+comment8.target=void\ inTrav(ObjectTreeNode)
+comment9.params=tree
+comment9.target=void\ postTrav(ObjectTreeNode)
+numComments=11

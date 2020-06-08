@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=ObjectTreeNode
+comment0.text=\r\n\ ObjectTreeNode\ Class.\ Responsible\ for\ constructing/manipulating\ nodes\ in\ a\ ObjectBinaryTree\ tree\r\n\r\n\ @author\ (Luka\ Kolev,\ Student\ I.D\ \=\ 012034735)\r\n\ @version\ (11/20/19)\r\n
+comment1.params=
+comment1.target=ObjectTreeNode()
+comment1.text=\r\n\ //\ Default\ ctor\ \ \r\n
+comment2.params=o
+comment2.target=ObjectTreeNode(java.lang.Object)
+comment2.text=\r\n\ //\ One-arg\ ctor\r\n
+comment3.params=o
+comment3.target=void\ setInfo(java.lang.Object)
+comment3.text=\r\n\ //\ Sets\ info\ field\r\n\r\n\ @param\ \ \ \ \ Object\ o\ (Object)\r\n
+comment4.params=
+comment4.target=java.lang.Object\ getInfo()
+comment4.text=\r\n\ //\ Returns\ object\ in\ info\ field\r\n\r\n\ @return\ \ \ \ returns\ info\ (Object)\r\n
+comment5.params=p
+comment5.target=void\ setLeft(ObjectTreeNode)
+comment5.text=\r\n\ //\ Sets\ left\ node\r\n\r\n\ @param\ \ \ \ \ ObjectTreeNode\ p\r\n
+comment6.params=
+comment6.target=ObjectTreeNode\ getLeft()
+comment6.text=\r\n\ //\ Gets\ left\ node\r\n\r\n\ @return\ \ \ \ \ ObjectTreeNode\ left\r\n
+comment7.params=p
+comment7.target=void\ setRight(ObjectTreeNode)
+comment7.text=\r\n\ //\ Sets\ right\ node\r\n\r\n\ @param\ \ \ \ \ ObjectTreeNode\ p\r\n
+comment8.params=
+comment8.target=ObjectTreeNode\ getRight()
+comment8.text=\r\n\ //\ Gets\ right\ node\r\n\r\n\ @return\ \ \ \ \ ObjectTreeNode\ left\r\n
+numComments=9

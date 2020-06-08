@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=Hash
+comment0.text=\r\n\ Hash\ Class.\ Responsible\ for\ any\ task\ that\ involves\ hashing\ and\ provides\ the\ tools/methods\ according\ so.\r\n\r\n\ @author\ (Luka\ Kolev,\ Student\ I.D\ \=\ 012034735)\r\n\ @version\ (11/20/19)\r\n
+comment1.params=pw
+comment1.target=Hash(java.io.PrintWriter)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Hash\r\n
+comment2.params=s
+comment2.target=int\ getHash(java.lang.String)
+comment2.text=\r\n\ -\ Responsible\ for\ generating\ an\ address\ when\ given\ a\ key\r\n\r\n\ @param\ \ \ \ \ String\ s\ (a\ string\ representing\ a\ word)\r\n\ @return\ \ \ \ return\ key\ (the\ unique\ key/value\ that\ was\ generated)\r\n
+comment3.params=
+comment3.target=void\ displayInfo()
+comment3.text=\r\n\ -\ Responsible\ for\ outputting\ the\ description\ of\ the\ hash\ function\r\n\r\n
+comment4.params=s
+comment4.target=void\ map(java.lang.String)
+comment4.text=\r\n\ -\ Responsible\ for\ mapping\ a\ ommited\ word.\ First\ it\ generates\ the\ unique\ address/value\ for\ the\ word\ and\ then\ it\ inserts\ it\ into\ the\ hash\ table\r\n\r\n\ @param\ \ \ \ \ String\ s\ (the\ word\ represented\ as\ a\ String)\ \r\n
+comment5.params=code\ s
+comment5.target=void\ insert(int,\ java.lang.String)
+comment5.text=\r\n\ -\ Responsible\ for\ inserting\ the\ omited\ word.\ Uses\ Linear\ probing\ as\ a\ solution\ to\ collisions\ when\ inserting.\r\n\r\n\ @param\ \ \ \ \ int\ code\ ,\ String\ s\ (the\ word\ represented\ as\ a\ String)\r\n
+comment6.params=
+comment6.target=void\ displayHashTab()
+comment6.text=\r\n\ -\ Responsible\ for\ displaying/outputting\ the\ contents\ of\ the\ hash\ table\ (including\ indices\ of\ each\ item\ in\ the\ hash\ table).\ Displays\ load\ factor\ and\ collisison\ details\ as\ well\r\n\r\n
+comment7.params=s
+comment7.target=boolean\ search(java.lang.String)
+comment7.text=\r\n\ -\ Responsible\ for\ searching\ a\ word\ in\ the\ hash\ table.\ \r\n\ \ \ \r\n\ \ \ *If\ the\ index\ of\ the\ array\ is\ empty,\ it's\ a\ missed\ searched.\ \r\n\ \ \ *If\ the\ index\ of\ the\ array\ matches\ with\ the\ string/word,\ then\ it\ found\ a\ omited\ word\ (successful\ search).\r\n\ \ \ *If\ the\ index\ of\ an\ array\ does\ not\ match\ the\ string/word,\ then\ the\ array\ list\ is\ Linear\ probed\ until\ it\ hits\ a\ succesful\ search.\ \r\n\ \ \ *If\ the\ string/word\ is\ not\ found\ until\ the\ end\ of\ laping\ around\ the\ hash\ table,\ then\ it's\ a\ failed\ search\r\n\r\n\ @param\ \ \ \ \ String\ s\ (the\ word\ represented\ as\ a\ String)\ \r\n\ @return\ \ \ \ returns\ a\ true\ or\ false\ statement\r\n
+comment8.params=
+comment8.target=int\ getOmitCount()
+comment8.text=\r\n\ A\ getter\ method\ for\ the\ omit\ count\ \r\n\r\n\ @return\ \ \ \ return\ omitCount;\r\n
+numComments=9

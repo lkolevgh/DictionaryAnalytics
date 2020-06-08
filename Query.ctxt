@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Query
+comment0.text=\r\n\ Query\ Class.\ Responsible\ for\ any\ tasks\ or\ operations\ regarding\ query\ searches.\r\n\r\n\ @author\ (Luka\ Kolev,\ Student\ I.D\ \=\ 012034735)\r\n\ @version\ (11/20/19)\r\n
+comment1.params=pw\ xref
+comment1.target=Query(java.io.PrintWriter,\ Xref)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Query\r\n
+comment2.params=
+comment2.target=void\ searchWord()
+comment2.text=\r\n\ -\ Responsible\ for\ preforming\ run\ time\ queries/preform\ searches\ on\ Word\ Objects\ \r\n\ \ \ *\ Invokes/accesses/gets\ the\ binary\ tree\ to\ get\ the\ Word\ objects\ (nodes)\r\n\ \ \ *\ If\ the\ word\ inputted\ from\ the\ user\ is\ found,\ display/output\ the\ word,\ the\ number\ of\ times\ the\ word\ appears\ in\ the\ text\ and\ the\ position\ the\ word\ appears\ on\ each\ line\r\n\ \ \ *\ If\ the\ word\ inputted\ from\ the\ user\ is\ not\ found,\ display\ a\ error\ message\ accordingly\ so\ and\ reprompt\ the\ user\ to\ input\ a\ different\ word\r\n\r\n
+numComments=3

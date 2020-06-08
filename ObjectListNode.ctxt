@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ObjectListNode
+comment0.text=\r\n\ ObjectListNode\ Class.\ Responsible\ for\ constructing/manipulating\ nodes\ in\ a\ ObjectList\ list\r\n\r\n\ @author\ (Luka\ Kolev,\ Student\ I.D\ \=\ 012034735)\r\n\ @version\ (11/20/19)\r\n
+comment1.params=
+comment1.target=ObjectListNode()
+comment1.text=\r\n\ //\ Default\ ctor\ \ \r\n
+comment2.params=o
+comment2.target=ObjectListNode(java.lang.Object)
+comment2.text=\r\n\ //\ One-arg\ ctor\r\n
+comment3.params=o\ p
+comment3.target=ObjectListNode(java.lang.Object,\ ObjectListNode)
+comment3.text=\r\n\ //\ Two-arg\ ctor\r\n
+comment4.params=o
+comment4.target=void\ setInfo(java.lang.Object)
+comment4.text=\r\n\ //\ Sets\ info\ field\r\n\r\n\ @param\ \ \ \ \ Object\ o\ (Object)\r\n
+comment5.params=
+comment5.target=java.lang.Object\ getInfo()
+comment5.text=\r\n\ //\ Returns\ object\ in\ info\ field\r\n\r\n\ @return\ \ \ \ returns\ info\ (Object)\r\n
+comment6.params=p
+comment6.target=void\ setNext(ObjectListNode)
+comment6.text=\r\n\ //\ Sets\ next\ field\r\n\r\n\ @param\ \ \ \ \ ObjectListNode\ p\ (ObjectListNode)\r\n
+comment7.params=
+comment7.target=ObjectListNode\ getNext()
+comment7.text=\r\n\ //\ Returns\ object\ in\ info\ field\r\n\r\n\ @return\ \ \ \ returns\ next\ (ObjectListNode)\r\n
+numComments=8

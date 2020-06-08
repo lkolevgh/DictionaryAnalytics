@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TreeComparable
+comment0.text=\r\n\ TreeComparable\ Interface\r\n\r\n\ @author\ (Luka\ Kolev,\ Student\ I.D\ \=\ 012034735)\r\n\ @version\ (11/20/19)\r\n
+comment1.params=o
+comment1.target=int\ compareTo(java.lang.Object)
+comment2.params=o
+comment2.target=void\ operate(java.lang.Object)
+comment3.params=
+comment3.target=void\ visit()
+numComments=4

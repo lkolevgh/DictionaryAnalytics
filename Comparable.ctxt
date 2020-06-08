@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Comparable
+comment0.text=\r\n\ Comparable\ Interface\r\n\r\n\ @author\ (Luka\ Kolev,\ Student\ I.D\ \=\ 012034735)\r\n\ @version\ (11/20/19)\r\n
+comment1.params=o
+comment1.target=int\ compareTo(java.lang.Object)
+numComments=2

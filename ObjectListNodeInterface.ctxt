@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ObjectListNodeInterface
+comment0.text=\r\n\ \ ObjectListNodeInterface\ Interface\r\n\r\n\ @author\ (Luka\ Kolev,\ Student\ I.D\ \=\ 012034735)\r\n\ @version\ (11/20/19)\r\n
+comment1.params=o
+comment1.target=void\ setInfo(java.lang.Object)
+comment2.params=
+comment2.target=java.lang.Object\ getInfo()
+comment3.params=p
+comment3.target=void\ setNext(ObjectListNode)
+comment4.params=
+comment4.target=ObjectListNode\ getNext()
+numComments=5

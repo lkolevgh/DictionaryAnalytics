@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=ObjectBinaryTree
+comment0.text=\r\n\ ObjectBinary\ Class.\ Responsible\ for\ providing\ methods\ to\ construct/evaluate/manipulate\ binary\ trees\r\n\r\n\ @author\ (Luka\ Kolev,\ Student\ I.D\ \=\ 012034735)\r\n\ @version\ (11/20/19)\r\n
+comment1.params=
+comment1.target=ObjectBinaryTree()
+comment1.text=\r\n\ //\ Constructer\ for\ ObjectBinaryTree\r\n
+comment10.params=tree
+comment10.target=void\ postTrav(ObjectTreeNode)
+comment10.text=\r\n\ //\ Preforms\ a\ Postorder\ Traversal\ on\ a\ binary\ tree\r\n\r\n
+comment11.params=o
+comment11.target=void\ delete(java.lang.Object)
+comment11.text=\r\n\ //\ deletes\ an\ object\ from\ a\ binary\ tree\r\n\r\n\ @param\ \ \ \ \ Object\ o\r\n
+comment2.params=
+comment2.target=ObjectTreeNode\ getRoot()
+comment2.text=\r\n\ //\ Returns\ the\ root\ of\ the\ binary\ tree\r\n
+comment3.params=parent\ r
+comment3.target=void\ setLeftChild(ObjectTreeNode,\ ObjectTreeNode)
+comment3.text=\r\n\ //\ sets\ a\ left\ child\ to\ the\ binary\ tree\r\n\r\n\ @param\ \ \ \ \ Object\ parent\ (ObjectTreeNode),\ Object\ r\ (ObjectTreeNode)\r\n
+comment4.params=parent\ r
+comment4.target=void\ setRightChild(ObjectTreeNode,\ ObjectTreeNode)
+comment4.text=\r\n\ //\ sets\ a\ left\ child\ to\ the\ binary\ tree\r\n\r\n\ @param\ \ \ \ \ (ObjectTreeNode\ parent,\ ObjectTreeNode\ r)\r\n
+comment5.params=o
+comment5.target=void\ insertBST(java.lang.Object)
+comment5.text=\r\n\ //\ inserts\ a\ object\ to\ the\ binary\ search\ tree\r\n\r\n\ @param\ \ \ \ \ Object\ o\r\n
+comment6.params=o
+comment6.target=void\ insertBSTDup(java.lang.Object)
+comment6.text=\r\n\ //\ inserts\ a\ object\ to\ the\ binary\ search\ tree\ duplicate\r\n\r\n\ @param\ \ \ \ \ Object\ o\r\n
+comment7.params=o
+comment7.target=ObjectTreeNode\ searchBST(java.lang.Object)
+comment7.text=\r\n\ //\ searches\ a\ object\ in\ a\ binary\ search\ tree\ \r\n\r\n\ @param\ \ \ \ \ Object\ o\r\n\ @return\ \ \ \ return\ p\ (ObjectTreeNode)\ OR\ return\ null\ (if\ object\ is\ not\ found)\r\n
+comment8.params=tree
+comment8.target=void\ preTrav(ObjectTreeNode)
+comment8.text=\r\n\ //\ Preforms\ a\ Preorder\ Traversal\ on\ a\ binary\ tree\r\n\r\n
+comment9.params=tree
+comment9.target=void\ inTrav(ObjectTreeNode)
+comment9.text=\r\n\ //\ Preforms\ a\ Inorder\ Traversal\ on\ a\ binary\ tree\r\n\r\n
+numComments=12

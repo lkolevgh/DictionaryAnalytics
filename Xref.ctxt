@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Xref
+comment0.text=\r\n\ Xref\ Class.\ Responsible\ for\ handling\ tasks\ that\ involve\ the\ getty.txt\ file\ or\ the\ omit.txt\ file.\ Also\ involves\ the\ usage\ of\ the\ Object\ binary\ tree,\ hashing,\ and\ contains\r\n\ tasks\ that\ are\ used\ to\ cross\ reference\ information\ from\ the\ getty\ address\r\n\ \r\n\ @author\ (Luka\ Kolev,\ Student\ I.D\ \=\ 012034735)\r\n\ @version\ (11/20/19)\r\n
+comment1.params=pw\ omitScanner\ gettyScanner\ hash
+comment1.target=Xref(java.io.PrintWriter,\ java.util.Scanner,\ java.util.Scanner,\ Hash)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Xref\r\n
+comment2.params=
+comment2.target=void\ displayGetty()
+comment2.text=\r\n\ -Responsible\ for\ displaying\ the\ contents\ of\ the\ getty.txt\ file.\ Scans\ getty.txt\ file,\ and\ outputs\ each\ line\ of\ text\ prefixed\ by\ a\ line\ number\r\n\r\n
+comment3.params=
+comment3.target=void\ initOmit()
+comment3.text=\r\n\ -\ Responsible\ for\ evaluating\ the\ omit.txt\ file\ and\ invoking\ the\ map()\ method\ to\ map\ the\ ommited\ words\ in\ the\ hash\ table\r\n\r\n
+comment4.params=
+comment4.target=void\ initGetty()
+comment4.text=\r\n\ -\ Responsible\ for\ instating\ new\ Word\ objects\ from\ the\ getty.txt\ file\ and\ storing\ them\ into\ the\ binary\ search\ tree\ (along\ with\ their\ line\ position\ information)\r\n\r\n
+comment5.params=
+comment5.target=void\ displayTree()
+comment5.text=\r\n\ -\ Responsible\ for\ displaying/outputting\ the\ contents\ of\ the\ binary\ search\ tree\r\n\r\n
+comment6.params=
+comment6.target=ObjectBinaryTree\ getTree()
+comment6.text=\r\n\ \ A\ getter\ method\ that\ returns\ the\ Object\ binary\ tree\r\n\r\n\ @return\ \ \ \ return\ tree\ (returns\ the\ binary\ tree)\r\n
+numComments=7
